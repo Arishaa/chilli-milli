@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int tab(int);
+void main()
+{
+int a,b;
+printf("enter any no:");
+scanf("%d",&a);
+b=tab(a);
+printf("%d*%d=%d",b);
+getch();
+}
+int tab(int a)
+{
+int c,d;
+for(c=1;c<=10;c++)
+{
+d=c*a;
+return d;
+}
+}
